@@ -65,7 +65,7 @@ function SinglePost(props) {
             />
           </Grid.Column>
           <Grid.Column width={10}>
-            <Card >
+            <Card fluid>
               <Card.Content>
                 <Card.Header>{username}</Card.Header>
                 <Card.Meta>{moment(createdAt).fromNow()}</Card.Meta>
