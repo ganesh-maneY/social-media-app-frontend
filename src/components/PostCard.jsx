@@ -21,7 +21,7 @@ function PostCard(props) {
   const { user } = useContext(AuthContext);
 
   return (
-    <Card >
+    <Card fluid>
       <Card.Content as={Link} to={`/posts/${id}`}>
         <Image
           floated="right"
