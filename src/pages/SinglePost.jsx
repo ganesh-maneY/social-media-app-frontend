@@ -64,8 +64,8 @@ function SinglePost(props) {
               float="right"
             />
           </Grid.Column>
-          <Grid.Column width={14}>
-            <Card fluid>
+          <Grid.Column width={10}>
+            <Card >
               <Card.Content>
                 <Card.Header>{username}</Card.Header>
                 <Card.Meta>{moment(createdAt).fromNow()}</Card.Meta>
